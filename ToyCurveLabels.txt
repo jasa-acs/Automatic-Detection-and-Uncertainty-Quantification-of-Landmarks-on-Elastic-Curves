@@ -1,0 +1,5 @@
+Labels for toy curves (simulated data)
+X200 = original curve from Section 5.1 (using N = 200 discretization points)
+X100 = X200 resampled to 100 discretization points
+MultX200 = five curve sample from Section 5.5 (using N = 200 discretization points)
+(third index goes from M = 1 to 5)

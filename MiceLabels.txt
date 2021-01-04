@@ -1,0 +1,8 @@
+Labels for mice vertebra data (from R 'shapes' package)
+group = group labels ('c' for control, 'l' for large, 's' for small)
+MO contains the mice vertebrae data:
+    N = 61 discretization points for each observation
+    76 total observations (1:30 are control, 31:53 are large, 54:76 are small)
+    e.g., first large observation is referenced using MO(:,31,:)
+
+All curves here are closed, so MO(:,1,:) = MO(:,61,:).
